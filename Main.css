@@ -1,0 +1,1067 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*MOBILE*/
+
+@media only screen and (min-width:320px) and (max-width:768px){
+
+    /*CONTENEDOR DE NAV E IMAGEN*/
+    .barranav{
+        background-color: #F1E3D3;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    /*CONTENEDOR NOMBRES DE LAS PAGINAS*/
+    .namenav{
+        display: flex;
+        flex-direction: column;
+    }
+    /*NOMBRES*/
+    .namenav a{
+        color:rgb(241, 96, 96) ;
+        width: 100vw;
+        text-decoration: none;
+        font-size: 4vw;
+        text-align: center;
+        transition: 1s;
+    }
+
+    /*ANIMACION*/
+    .namenav a:hover{
+        background-color: #F2D0A9;
+        color: whitesmoke;
+        border: 2vh solid #f1c593;
+    }
+
+    /*IMAGEN NAV*/
+    .barranav img{
+        width: 20vw;
+    }
+
+
+    /*HOME..............*/
+
+
+    /*PARTE 1 HOME*/
+    
+        /*BANNER CENTRAL*/
+
+        .oreo{
+            display: flex;
+            flex-direction: column;
+            color: #F2D0A9;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100vw;
+            height: 100vh;
+            background: url(./Imagenes/imagenv.jpg);
+            background-position: center;
+            padding: 5vw;
+        }
+        .oreo h1, h2{
+            font-family:Arial, Helvetica, sans-serif;
+            color: #e0d2f8;
+        }
+
+        .oreo h2{
+            color: rgb(136, 105, 237);
+        }
+
+        .oreo img{
+            margin: 5vw;
+            width: 100vw;
+            height: 30vh;
+        }
+
+    
+
+    /* SEGUNDA PARTE HOME */
+
+    .segunda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5vw;
+        background-color: rgb(235, 138, 138);
+        width: 100vw;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .segunda img{
+        width: 50vw;
+        margin-bottom: 5vh;
+    }
+
+    .segunda  h2,p{
+        text-align: center;
+
+    }
+
+    /*FOOTER HOME*/
+    
+    .pie{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        height: 10vh;
+        background-color: #b082ff;
+    }
+
+
+    /*ABOUT US......................*/
+    
+
+
+    /*CONTENEDOR DE LAS IMAGENES Y TEXTO CADA CLASE ABOUT SERA IMAGEN Y TEXTO EN SU ORDEN*/
+
+    /*PRIMER CONTENEDOR*/
+    .about1{
+        background-color: #9DAEC6;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        padding: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*IMAGEN Y TEXTO*/
+
+    .about1 img{
+        margin: 1vh;
+        border: 2px solid #D291BC;
+        width: 50vw;
+        height: auto;
+    }
+
+    .about1 p{
+        color: #ffffff;
+        background-color: #373737;
+        border: 2px solid;
+        padding: 2vh;
+    }
+
+    /*SEGUNDO CONTENEDOR*/
+
+    .about2{
+        background-color: #9DAEC6;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        padding: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*IMAGEN Y TEXTO*/
+
+    .about2 img{
+        margin: 1vh;
+        border: 2px solid #D291BC;
+        width: 50vw;
+        height: auto;
+    }
+
+    .about2 p{
+        color: #ffffff;
+        background-color: #373737;
+        border: 2px solid;
+        padding: 2vh;
+    }
+
+    /*TERCER CONTENEDOR*/
+
+    .about3{
+        background-color: #9DAEC6;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        padding: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*IMAGEN Y TEXTO*/
+
+    .about3 img{
+        margin: 1vh;
+        border: 2px solid #D291BC;
+        width: 50vw;
+        height: auto;
+    }
+
+    .about3 p{
+        color: #ffffff;
+        background-color: #373737;
+        border: 2px solid;
+        padding: 2vh;
+    }
+
+    /*CONTACT......................*/
+
+    .cont1{
+        display: flex;
+        flex-direction: column;
+        color: #5770f8;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        height: 100vh;
+        background: url(./Imagenes/two-icecream.jpg);
+        background-position: center;
+        padding: 5vw;
+    }
+
+    .cont1 h2{
+        color: cornsilk;
+    }
+
+    .cont2{
+        display: flex;
+        background-color: rgba(200,221,216,255);
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5vw;
+        font-size: 5vw;
+    }
+
+    .cont2 h2{
+        color: #efeeea;
+    }
+
+    /*LOGO GMAIL Y WHATSAPP*/
+
+    .gw{
+        display: flex;
+        flex-direction: column;
+        width: 20vw;
+        height: 15;
+
+    }
+    .gw img{
+        height: auto;
+        width:20vw ;
+    }
+
+    /*MORE INFO................*/
+
+    .tabla{
+        background-color: #D36582;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    table {
+        border: 2px solid white;
+        margin-top: 10vh;
+        text-align: center;
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .mi{
+        margin-top: 5vh;
+    }
+    .contenido{
+        display: flex;
+        align-items: center;
+        height: 70vh;
+    }
+    tr, th, td{
+        border: 2px solid pink;
+        background-color: lightpink;
+    }
+
+    /*Benefits and tips ...................*/
+    
+    
+    /*TITULO PAGINA*/
+    .titulobf{
+        text-align: center;
+    }
+
+    /*PRIMER RECUADRO*/
+
+    .contenbox1 {
+        width: 100vw;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5vw;
+        background-color: lightcoral;
+    }
+
+    .cuadro1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        padding: 5vw;
+    }
+
+    .cuadro1 img{
+        width: 90vw;
+        margin-bottom: 2vh;
+    }
+
+    dl{
+        font-size: 4vw;
+        margin: 5vw;
+    }
+
+    /*SEGUNDO RECUADRO*/
+
+    .contenbox2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #D291BC;
+        width: 100vw;
+        height: 100vh;
+
+    }
+    .cuadro2 img{
+        width: 80vw;
+        height: 50vh;
+    }
+
+    dl{
+        font-size: 4vw;
+    }
+
+    /*RAFFLE......................*/
+    form{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+}
+ 
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*TABLET*/
+@media only screen and (min-width:768px) and (max-width:1024px){
+    
+    /*CONTENEDOR BARRA DE IMAGEN */
+
+    .barranav{
+        background-color: #F1E3D3;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    /*CONTENEDOR NOMBRE DE LAS PAGINAS*/
+
+    .namenav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*NOMBRES*/
+    
+    .namenav a{
+        color:rgb(241, 96, 96) ;
+        width: 100vw;
+        text-decoration: none;
+        font-size: 3vw;
+        text-align: center;
+        transition: 1s;
+    }
+
+    /*ANIMACION*/
+    a:hover{
+        color: whitesmoke;
+    }
+
+    /*IMAGEN NAV*/
+
+    .barranav img{
+        width: 20vw;
+    }
+
+    /*PARTE 1 HOME*/
+
+    
+        /*BANNER CENTRAL*/
+
+        .oreo{
+            display: flex;
+            flex-direction: column;
+            color: #F2D0A9;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100vw;
+            height: 100vh;
+            background: url(./Imagenes/imagenv.jpg);
+            background-position: center;
+            padding: 5vw;
+        }
+        .oreo h1, h2{
+            font-family:Arial, Helvetica, sans-serif;
+            color: #e0d2f8;
+        }
+
+        .oreo h2{
+            color: rgb(136, 105, 237);
+        }
+
+        .oreo img{
+            margin: 5vw;
+            width: 100vw;
+            height: 30vh;
+        }
+
+    
+
+    /* SEGUNDA PARTE HOME */
+
+    .segunda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5vw;
+        background-color: rgb(235, 138, 138);
+        width: 100vw;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .segunda img{
+        width: 30vw;
+        margin-bottom: 5vh;
+    }
+
+    .segunda  h2,p{
+        text-align: center;
+
+    }
+
+    /*FOOTER HOME*/
+    
+    .pie{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        height: 10vh;
+        background-color: #b082ff;
+    }
+
+     /*ABOUT US......................*/
+    
+
+
+    /*CONTENEDOR DE LAS IMAGENES Y TEXTO CADA CLASE ABOUT SERA IMAGEN Y TEXTO EN SU ORDEN*/
+
+    /*PRIMER CONTENEDOR*/
+    .about1{
+        background-color: #9DAEC6;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        padding: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*IMAGEN Y TEXTO*/
+
+    .about1 img{
+        margin: 1vh;
+        border: 2px solid #D291BC;
+        width: 40vw;
+        height: auto;
+    }
+
+    .about1 p{
+        color: #ffffff;
+        background-color: #373737;
+        border: 2px solid;
+        padding: 2vh;
+    }
+
+    /*SEGUNDO CONTENEDOR*/
+
+    .about2{
+        background-color: #9DAEC6;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        padding: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*IMAGEN Y TEXTO*/
+
+    .about2 img{
+        margin: 1vh;
+        border: 2px solid #D291BC;
+        width: 40vw;
+        height: auto;
+    }
+
+    .about2 p{
+        color: #ffffff;
+        background-color: #373737;
+        border: 2px solid;
+        padding: 2vh;
+    }
+
+    /*TERCER CONTENEDOR*/
+
+    .about3{
+        background-color: #9DAEC6;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        padding: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*IMAGEN Y TEXTO*/
+
+    .about3 img{
+        margin: 1vh;
+        border: 2px solid #D291BC;
+        width: 40vw;
+        height: auto;
+    }
+
+    .about3 p{
+        color: #ffffff;
+        background-color: #373737;
+        border: 2px solid;
+        padding: 2vh;
+    }
+
+    /*CONTACT......................*/
+
+    .cont1{
+        display: flex;
+        flex-direction: column;
+        color: #5770f8;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        height: 100vh;
+        background: url(./Imagenes/two-icecream.jpg);
+        background-position: center;
+        padding: 5vw;
+        font-size: 3vw;
+    }
+
+    .cont1 h2{
+        color: cornsilk;
+    }
+
+    .cont2{
+        display: flex;
+        background-color: rgba(200,221,216,255);
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5vw;
+        font-size: 3vw;
+    }
+
+    .cont2 h2{
+        color: #efeeea;
+    }
+
+    /*LOGO GMAIL Y WHATSAPP*/
+
+    .gw{
+        display: flex;
+        flex-direction: column;
+        width: 20vw;
+        height: 15;
+
+    }
+    .gw img{
+        height: auto;
+        width:20vw ;
+    }
+
+    /*MORE INFO................*/
+
+    .tabla{
+        background-color: #D36582;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    table {
+        border: 2px solid white;
+        margin-top: 10vh;
+        text-align: center;
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .mi{
+        margin-top: 5vh;
+    }
+    .contenido{
+        display: flex;
+        align-items: center;
+        height: 70vh;
+    }
+    tr, th, td{
+        border: 2px solid pink;
+        background-color: lightpink;
+    }
+
+    /*Benefits and tips ...................*/
+    
+    
+    /*TITULO PAGINA*/
+    .titulobf{
+        text-align: center;
+    }
+
+    /*PRIMER RECUADRO*/
+
+    .contenbox1 {
+        width: 100vw;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5vw;
+        background-color: lightcoral;
+    }
+
+    .cuadro1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        padding: 5vw;
+    }
+
+    .cuadro1 img{
+        width: 40vw;
+        margin-bottom: 2vh;
+    }
+
+    dl{
+        font-size: 4vw;
+        margin: 5vw;
+    }
+
+    /*SEGUNDO RECUADRO*/
+
+    .contenbox2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #D291BC;
+        width: 100vw;
+        height: 100vh;
+
+    }
+    .cuadro2 img{
+        width: 60vw;
+        height: 50vh;
+    }
+
+    dl{
+        font-size: 4vw;
+    }
+
+    
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+    /*PC*/
+
+    @media only screen and (min-width:1024px){
+
+            /*CONTENEDOR BARRA E IMAGEN */
+
+    .barranav{
+        background-color: #F1E3D3;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px 10px 15px #f5dfc6;
+    }
+
+    /*CONTENEDOR NOMBRE DE LAS PAGINAS*/
+
+    .namenav{
+        display: flex;
+    }
+
+    /*NOMBRES*/
+    
+    .namenav a{
+        color:rgb(241, 96, 96) ;
+        margin-left: 2.5vw;
+        text-decoration: none;
+        font-size: 1.5vw;
+        text-align: center;
+        transition: 1s;
+    }
+
+    /*ANIMACION*/
+    a:hover{
+        color: lightpink;
+    }
+
+    /*IMAGEN NAV*/
+
+    .barranav img{
+        width: 3vw;
+    }
+
+    /*PARTE 1 HOME*/
+
+    
+        /*BANNER CENTRAL*/
+
+        .oreo{
+            background: url(./Imagenes/banner.jpg);
+            background-size:  100vw 100vh;
+            width: 100vw;
+            height: 100vh;
+        }
+
+    /* SEGUNDA PARTE HOME */
+
+    .segunda{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5vw;
+        background-color: rgb(235, 138, 138);
+        width: 100vw;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .segunda img{
+        width: 30vw;
+    }
+
+    .segunda  h2,p{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1vw;
+        width: 30vw;
+        height: 15vh;
+
+    }
+
+    /*FOOTER HOME*/
+    
+    .pie{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        height: 10vh;
+        background-color: #b082ff;
+    }
+
+     /*ABOUT US......................*/
+    
+
+
+    /*CONTENEDOR DE LAS IMAGENES Y TEXTO CADA CLASE ABOUT SERA IMAGEN Y TEXTO EN SU ORDEN*/
+
+    /*PRIMER CONTENEDOR*/
+    .about1{
+        background-color: #9DAEC6;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        padding: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*IMAGEN Y TEXTO*/
+
+    .about1 img{
+        margin: 1vh;
+        border: 2px solid #D291BC;
+        width: 50vw;
+        height: auto;
+    }
+
+    .about1 p{
+        color: #ffffff;
+        background-color: #373737;
+        border: 2px solid;
+        padding: 2vh;
+    }
+
+    /*SEGUNDO CONTENEDOR*/
+
+    .about2{
+        background-color: #9DAEC6;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        padding: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*IMAGEN Y TEXTO*/
+
+    .about2 img{
+        margin: 1vh;
+        border: 2px solid #D291BC;
+        width: 50vw;
+        height: auto;
+    }
+
+    .about2 p{
+        color: #ffffff;
+        background-color: #373737;
+        border: 2px solid;
+        padding: 2vh;
+    }
+
+    /*TERCER CONTENEDOR*/
+
+    .about3{
+        background-color: #9DAEC6;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        padding: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*IMAGEN Y TEXTO*/
+
+    .about3 img{
+        margin: 1vh;
+        border: 2px solid #D291BC;
+        width: 50vw;
+        height: auto;
+    }
+
+    .about3 p{
+        color: #ffffff;
+        background-color: #373737;
+        border: 2px solid;
+        padding: 2vh;
+    }
+
+    /*CONTACT......................*/
+
+    .cont1{
+        display: flex;
+        flex-direction: column;
+        color: #5770f8;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        height: 100vh;
+        background: url(./Imagenes/two-icecream.jpg);
+        background-position: center;
+        padding: 5vw;
+    }
+
+    .cont1 h2{
+        color: cornsilk;
+    }
+
+    .cont2{
+        display: flex;
+        background-color: rgba(200,221,216,255);
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5vw;
+        font-size: 5vw;
+    }
+
+    .cont2 h2{
+        color: #efeeea;
+    }
+
+    /*LOGO GMAIL Y WHATSAPP*/
+
+    .gw{
+        display: flex;
+        flex-direction: column;
+        width: 20vw;
+        height: 15;
+
+    }
+    .gw img{
+        height: auto;
+        width:20vw ;
+    }
+
+    /*MORE INFO................*/
+
+    .tabla{
+        background-color: #D36582;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    table {
+        border: 2px solid white;
+        margin-top: 10vh;
+        text-align: center;
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .mi{
+        margin-top: 5vh;
+    }
+    .contenido{
+        display: flex;
+        align-items: center;
+        height: 70vh;
+    }
+    tr, th, td{
+        border: 2px solid pink;
+        background-color: lightpink;
+    }
+
+    /*Benefits and tips ...................*/
+    
+    
+    /*TITULO PAGINA*/
+    .titulobf{
+        text-align: center;
+    }
+
+    /*PRIMER RECUADRO*/
+
+    .contenbox1 {
+        width: 100vw;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5vw;
+        background-color: lightcoral;
+    }
+
+    .cuadro1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        padding: 5vw;
+    }
+
+    .cuadro1 img{
+        width: 90vw;
+        margin-bottom: 2vh;
+    }
+
+    dl{
+        font-size: 4vw;
+        margin: 5vw;
+    }
+
+    /*SEGUNDO RECUADRO*/
+
+    .contenbox2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #D291BC;
+        width: 100vw;
+        height: 100vh;
+
+    }
+    .cuadro2 img{
+        width: 80vw;
+        height: 50vh;
+    }
+
+    dl{
+        font-size: 4vw;
+    }
+    
+    
+
+    
+    }
+
