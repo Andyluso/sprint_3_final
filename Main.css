@@ -11,6 +11,8 @@
 
 @media only screen and (min-width:320px) and (max-width:768px){
 
+    
+
     /*CONTENEDOR DE NAV E IMAGEN*/
     .barranav{
         background-color: #F1E3D3;
@@ -49,6 +51,7 @@
 
     /*HOME..............*/
 
+    /*TITULO*/
 
     /*PARTE 1 HOME*/
     
@@ -69,7 +72,9 @@
         }
         .oreo h1, h2{
             font-family:Arial, Helvetica, sans-serif;
+            display: flex;
             color: #e0d2f8;
+            flex-direction: column;
         }
 
         .oreo h2{
@@ -125,8 +130,20 @@
 
 
     /*CONTENEDOR DE LAS IMAGENES Y TEXTO CADA CLASE ABOUT SERA IMAGEN Y TEXTO EN SU ORDEN*/
-
+    .tituloabout{
+        background-color: #9DAEC6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     /*PRIMER CONTENEDOR*/
+
+    h1{
+        color: #5770f8;
+    }
+    h2{
+        color: #efeeea;
+    }
     .about1{
         background-color: #9DAEC6;
         display: flex;
@@ -248,6 +265,7 @@
         align-items: center;
         padding: 5vw;
         font-size: 5vw;
+        text-align: center;
     }
 
     .cont2 h2{
@@ -329,7 +347,7 @@
     }
 
     .cuadro1 img{
-        width: 90vw;
+        width: 80vw;
         margin-bottom: 2vh;
     }
 
@@ -360,20 +378,83 @@
         font-size: 4vw;
     }
 
-    /*RAFFLE......................*/
+    /*RAFFLE.......................*/
+
+
+    /*CONTENEDOR PRINCIPAL*/
+
+        /*MAPA ...........*/
+
+        .mapa{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #9DAEC6;
+            width: 100vw;
+            height: 30vh;
+        }
+    iframe{
+        width: 90vw;
+        height: auto;
+    }
+    /*CONTENEDOR FORMULARIO*/
+    .formu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(228, 228, 246);
+        padding: 1vw;
+        width: 100vw;
+        height: 70vh;
+    }
+
+    /*FORMULARIO*/
     form{
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 5px solid red;
+        font-size: 2vw;
         display: flex;
         flex-direction: column;
-        height: 100vh;
-        width: 100vw;
+        padding: 2vw;
+        width: 90vw;
+        height: 60vh;
+        
     }
+     
     
+    /*Tamaño de los recuadros*/
+    .cua{
+        height: 5vh;
+        border: 2px solid #D291BC ;
+    }
+
+    /*BOTON*/
+    .botonenvi{
+        display: flex;
+        justify-content: center;
+        height: 3vh;
+    }
+
+    .boton{
+        border-radius: 5px;
+        width: 20vw;
+        background-color: #9eacff;
+    }
+
+    /*MARGEN DE SEPARACION*/
+    label, input{
+        margin: 4px;
+    }
+
 }
  
 /*-----------------------------------------------------------------------------------------------------------*/
 
 /*TABLET*/
-@media only screen and (min-width:768px) and (max-width:1024px){
+@media only screen and (min-width:768px) and (max-width:1023px){
+
+    
     
     /*CONTENEDOR BARRA DE IMAGEN */
 
@@ -410,7 +491,7 @@
     /*IMAGEN NAV*/
 
     .barranav img{
-        width: 20vw;
+        width: 10vw;
     }
 
     /*PARTE 1 HOME*/
@@ -489,14 +570,29 @@
 
     /*CONTENEDOR DE LAS IMAGENES Y TEXTO CADA CLASE ABOUT SERA IMAGEN Y TEXTO EN SU ORDEN*/
 
+    /*TITULO*/
+    .tituloabout{
+        background-color: #9DAEC6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     /*PRIMER CONTENEDOR*/
+
+    h1{
+        color: #5770f8;
+    }
+    h2{
+        color: #efeeea;
+    }
+
     .about1{
         background-color: #9DAEC6;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
-        width: 100vw;
         height: 100vh;
         text-align: center;
         padding: 5vw;
@@ -527,7 +623,6 @@
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
-        width: 100vw;
         height: 100vh;
         text-align: center;
         padding: 5vw;
@@ -558,7 +653,6 @@
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
-        width: 100vw;
         height: 100vh;
         text-align: center;
         padding: 5vw;
@@ -597,14 +691,15 @@
         padding: 5vw;
         font-size: 3vw;
     }
-
+    
     .cont1 h2{
         color: cornsilk;
     }
-
+    
     .cont2{
         display: flex;
         background-color: rgba(200,221,216,255);
+        text-align: center;
         width: 100vw;
         height: 100vh;
         flex-direction: column;
@@ -724,6 +819,74 @@
         font-size: 4vw;
     }
 
+    /*RAFFLE.......................*/
+
+
+    /*CONTENEDOR PRINCIPAL*/
+
+        /*MAPA ...........*/
+
+        .mapa{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #9DAEC6;
+            width: 100vw;
+            height: 100vh;
+        }
+    iframe{
+        width: 50vw;
+    }
+    /*CONTENEDOR FORMULARIO*/
+    .formu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(199, 207, 255);
+        padding: 1vw;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    /*FORMULARIO*/
+    form{
+        font-family: Arial, Helvetica, sans-serif;
+        border: 5px solid red;
+        background-color: white;
+        font-size: 1.2vw;
+        display: flex;
+        flex-direction: column;
+        padding: 2vw;
+        width: 40vw;
+        height: 70vh;
+        
+    }
+     
+    
+    /*Tamaño de los recuadros*/
+    .cua{
+        height: 5vh;
+        border: 2px solid #D291BC ;
+    }
+
+    /*BOTON*/
+    .botonenvi{
+        display: flex;
+        justify-content: center;
+        height: 3vh;
+    }
+
+    .boton{
+        border-radius: 5px;
+        width: 10vw;
+        background-color: #9eacff;
+    }
+
+    /*MARGEN DE SEPARACION*/
+    label, input{
+        margin: 4px;
+    }
+
     
 }
 /*-----------------------------------------------------------------------------------------------------------*/
@@ -738,7 +901,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        box-shadow: 0px 10px 15px #f5dfc6;
     }
 
     /*CONTENEDOR NOMBRE DE LAS PAGINAS*/
@@ -775,10 +937,18 @@
         /*BANNER CENTRAL*/
 
         .oreo{
-            background: url(./Imagenes/banner.jpg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: #5770f8;
+            font-size: 2vw;
+            background: url(./Imagenes/imagenv.jpg);
             background-size:  100vw 100vh;
-            width: 100vw;
             height: 100vh;
+        }
+        .oreo h2{
+            color: #F1E3D3;
         }
 
     /* SEGUNDA PARTE HOME */
@@ -790,23 +960,33 @@
         justify-content: space-evenly;
         padding: 5vw;
         background-color: rgb(235, 138, 138);
-        width: 100vw;
         height: 100vh;
         font-family: Arial, Helvetica, sans-serif;
     }
 
     .segunda img{
+        border: 3px solid ;
         width: 30vw;
+        height: 60vh;
     }
 
-    .segunda  h2,p{
+    .segunda  h2{
         display: flex;
-        flex-direction: column;
         text-align: center;
-        font-size: 1vw;
-        width: 30vw;
+        align-items: flex-end;
+        justify-content: center;
+        color: #5770f8;
+        font-size: 2vw;
+        width: 40vw;
         height: 15vh;
 
+    }
+
+    .segunda p{
+        font-size: 1.5vw;
+        text-align: center;
+        width: 40vw;
+        color: #F1E3D3;
     }
 
     /*FOOTER HOME*/
@@ -825,16 +1005,28 @@
 
 
     /*CONTENEDOR DE LAS IMAGENES Y TEXTO CADA CLASE ABOUT SERA IMAGEN Y TEXTO EN SU ORDEN*/
-
+    /*TITULO*/
+    .tituloabout{
+        background-color: #9DAEC6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     /*PRIMER CONTENEDOR*/
+
+    h1{
+        color: #5770f8;
+    }
+    h2{
+        color: #efeeea;
+    }
     .about1{
         background-color: #9DAEC6;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
-        flex-direction: column;
+        height: 30vh;
         width: 100vw;
-        height: 100vh;
         text-align: center;
         padding: 5vw;
         font-family: Arial, Helvetica, sans-serif;
@@ -845,7 +1037,7 @@
     .about1 img{
         margin: 1vh;
         border: 2px solid #D291BC;
-        width: 50vw;
+        width: 10vw;
         height: auto;
     }
 
@@ -856,6 +1048,16 @@
         padding: 2vh;
     }
 
+    /*contenederos de titulo y texto*/
+    .contexto1{
+        background-color: #9eacff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40vw;
+    }
+
+
     /*SEGUNDO CONTENEDOR*/
 
     .about2{
@@ -863,9 +1065,8 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        flex-direction: column;
         width: 100vw;
-        height: 100vh;
+        height: 29vh;
         text-align: center;
         padding: 5vw;
         font-family: Arial, Helvetica, sans-serif;
@@ -876,7 +1077,7 @@
     .about2 img{
         margin: 1vh;
         border: 2px solid #D291BC;
-        width: 50vw;
+        width: 9vw;
         height: auto;
     }
 
@@ -887,6 +1088,14 @@
         padding: 2vh;
     }
 
+    .contexto2{
+        background-color: #5a72ff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40vw;
+    }
+
     /*TERCER CONTENEDOR*/
 
     .about3{
@@ -894,9 +1103,8 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        flex-direction: column;
         width: 100vw;
-        height: 100vh;
+        height: 30vh;
         text-align: center;
         padding: 5vw;
         font-family: Arial, Helvetica, sans-serif;
@@ -907,7 +1115,7 @@
     .about3 img{
         margin: 1vh;
         border: 2px solid #D291BC;
-        width: 50vw;
+        width: 10vw;
         height: auto;
     }
 
@@ -916,6 +1124,14 @@
         background-color: #373737;
         border: 2px solid;
         padding: 2vh;
+    }
+
+    .contexto3{
+        background-color: #0025f7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40vw;
     }
 
     /*CONTACT......................*/
@@ -932,6 +1148,7 @@
         background: url(./Imagenes/two-icecream.jpg);
         background-position: center;
         padding: 5vw;
+        font-size: 2vw;
     }
 
     .cont1 h2{
@@ -947,25 +1164,30 @@
         justify-content: space-around;
         align-items: center;
         padding: 5vw;
-        font-size: 5vw;
+        font-size: 2vw;
     }
 
     .cont2 h2{
         color: #efeeea;
     }
 
+    .contexocontact{
+        width: 50vw;
+        text-align: center;
+    }
+
     /*LOGO GMAIL Y WHATSAPP*/
 
     .gw{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 20vw;
         height: 15;
 
     }
     .gw img{
         height: auto;
-        width:20vw ;
+        width:10vw ;
     }
 
     /*MORE INFO................*/
@@ -980,11 +1202,15 @@
         height: 100vh;
     }
 
+    .tabla h1{
+        color: #5770f8;
+    }
+
     table {
         border: 2px solid white;
         margin-top: 10vh;
         text-align: center;
-        width: 90vw;
+        width: 50vw;
         height: 50vh;
     }
 
@@ -999,6 +1225,7 @@
     tr, th, td{
         border: 2px solid pink;
         background-color: lightpink;
+        font-size: 1vw;
     }
 
     /*Benefits and tips ...................*/
@@ -1009,58 +1236,126 @@
         text-align: center;
     }
 
+    .titulobf h2{
+        color: #F1E3D3;
+    }
+
     /*PRIMER RECUADRO*/
 
     .contenbox1 {
-        width: 100vw;
-        height: 100vh;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 5vw;
-        background-color: lightcoral;
-    }
-
-    .cuadro1{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 80vh;
-        padding: 5vw;
+        width: 100vw;
+        height: 45vh;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightcoral;
+        
+    }
+
+    .cuadro1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80vw;
+        height: 30vh;
     }
 
     .cuadro1 img{
-        width: 90vw;
-        margin-bottom: 2vh;
+        width: 15vw;
+        margin-right: 10vw;
     }
 
-    dl{
-        font-size: 4vw;
-        margin: 5vw;
-    }
 
     /*SEGUNDO RECUADRO*/
 
     .contenbox2{
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #D291BC;
         width: 100vw;
-        height: 100vh;
+        height: 49vh;
 
     }
-    .cuadro2 img{
+
+    .cuadro2{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
         width: 80vw;
-        height: 50vh;
+    }
+    .cuadro2 img{
+        width: 10vw;
     }
 
     dl{
-        font-size: 4vw;
+        font-size: 1.5vw;
     }
     
+
+    /*RAFFLE.......................*/
+
+
+    /*CONTENEDOR PRINCIPAL*/
+
+    .myc{
+        background-color: #dae0ff;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100vh;
+    }
+
+
+        /*MAPA ...........*/
+    iframe{
+        width: 30vw;
+    }
+    /*CONTENEDOR FORMULARIO*/
+    .formu{
+        background-color: rgb(255, 255, 255);
+        padding: 1vw;
+        border: 5px solid lightcoral;
+    }
+
+    /*FORMULARIO*/
+    form{
+        font-size: 1.2vw;
+        display: flex;
+        flex-direction: column;
+        width: 25vw;
+        height: 60vh;
+        margin: 10px;
+    }
+     
     
+    /*Tamaño de los recuadros*/
+    .cua{
+        height: 5vh;
+        border: 2px solid #D291BC ;
+    }
+
+    /*BOTON*/
+    .botonenvi{
+        display: flex;
+        justify-content: center;
+        height: 3vh;
+    }
+
+    .boton{
+        border-radius: 5px;
+        width: 10vw;
+        background-color: #9eacff;
+    }
+
+    /*MARGEN DE SEPARACION*/
+    label, input{
+        margin: 4px;
+    }
 
     
     }
