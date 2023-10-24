@@ -342,7 +342,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 80vh;
+        height: 70vh;
         padding: 5vw;
     }
 
@@ -354,6 +354,11 @@
     dl{
         font-size: 4vw;
         margin: 5vw;
+    }
+
+
+    .stre img{
+        width: 90vw;
     }
 
     /*SEGUNDO RECUADRO*/
@@ -369,6 +374,10 @@
         height: 100vh;
 
     }
+
+    .cuadro2{
+        height: 60vh;
+    }
     .cuadro2 img{
         width: 80vw;
         height: 50vh;
@@ -376,6 +385,17 @@
 
     dl{
         font-size: 4vw;
+    }
+
+    .strel{
+        display: flex;
+        align-items: flex-end;
+        height: 30vh;
+
+    }
+
+    .strel img{
+        width: 90vw;
     }
 
     /*RAFFLE.......................*/
@@ -788,7 +808,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 80vh;
+        height: 70vh;
         padding: 5vw;
     }
 
@@ -800,6 +820,10 @@
     dl{
         font-size: 4vw;
         margin: 5vw;
+    }
+
+    .stre img{
+        width: 90vw;
     }
 
     /*SEGUNDO RECUADRO*/
@@ -823,6 +847,18 @@
     dl{
         font-size: 4vw;
     }
+
+    .strel{
+        display: flex;
+        align-items: flex-end;
+
+
+    }
+
+    .strel img{
+        width: 90vw;
+    }
+
 
     /*RAFFLE.......................*/
 
@@ -1275,13 +1311,18 @@
         margin-right: 10vw;
     }
 
+    .stre img{
+        display: flex;
+        width: 20vw;
+    }
 
     /*SEGUNDO RECUADRO*/
 
     .contenbox2{
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #D291BC;
         width: 100vw;
@@ -1303,6 +1344,10 @@
         font-size: 1.5vw;
     }
     
+
+    .strel img{
+        width: 20vw;
+    }
 
     /*RAFFLE.......................*/
 
