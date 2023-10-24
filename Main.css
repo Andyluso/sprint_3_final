@@ -421,6 +421,11 @@
         height: 60vh;
         
     }
+
+    .fecha{
+        height: 5vh;
+        border: solid lightsalmon;
+    }
      
     
     /*Tamaño de los recuadros*/
@@ -862,7 +867,10 @@
         
     }
      
-    
+    .fecha{
+        height: 5vh;
+        border: solid lightsalmon;
+    }
     /*Tamaño de los recuadros*/
     .cua{
         height: 5vh;
@@ -1331,6 +1339,11 @@
         height: 60vh;
         margin: 10px;
     }
+
+    .fecha{
+        height: 5vh;
+        border: solid lightsalmon;
+    }
      
     
     /*Tamaño de los recuadros*/
@@ -1357,6 +1370,7 @@
         margin: 4px;
     }
 
+    
     
     }
 
